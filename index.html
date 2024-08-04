@@ -16,46 +16,56 @@
 		</ul>
 
 		<table>
-			<tr>
-				d
-				<td>1</td>
-				<td>2</td>
-				<td>3</td>
-			</tr>
-			<tr>
-				a
-				<td>1</td>
-				<td>2</td>
-				<td>3</td>
-			</tr>
-			<tr>
-				w
-				<td>1</td>
-				<td>2</td>
-				<td>3</td>
-			</tr>
-			<tr>
-				e
-			</tr>
+			<thead>
+				<tr>
+					<th>Хмарний сервіс</th>
+					<th>Використання</th>
+					<th></th>
+					<th></th>
+				</tr>
+				<tr>
+					<th></th>
+					<th>Користувачі</th>
+					<th>Відвідування</th>
+					<th>Об`єм</th>
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr>
+					<td>Google</td>
+					<td>12000</td>
+					<td>307000</td>
+					<td>1000 Tb</td>
+				</tr>
+				<tr>
+					<td>Amazon</td>
+					<td>9000</td>
+					<td>200500</td>
+					<td>800 Tb</td>
+				</tr>
+			</tbody>
 		</table>
 
-		<table>
-			<tr>
-				<td>433</td>
-				<td>Київ - Ковель</td>
-				<td>5 годин</td>
-			</tr>
-			<tr>
-				<td>701</td>
-				<td>Харків - Дніпро</td>
-				<td>7 годин</td>
-			</tr>
-			<tr>
-				<td>258</td>
-				<td>Львів - Одеса</td>
-				<td>4 години</td>
-			</tr>
-		</table>
+		<dl>
+			<dt>JPEG</dt>
+			<dd>
+				Large files that do not require transparent backgrounds or animations. This format is ideal for vivid photorealistic photographs as it can
+				contain millions of colors.
+			</dd>
+
+			<dt>PNG</dt>
+			<dd>
+				Has an additional parameter for describing transparency - the alpha channel. Suitable for images with transparent or monochrome backgrounds.
+				Used for icons and decorative items.
+			</dd>
+
+			<dt>webP</dt>
+			<dd>
+				A replacement format for PNG and JPEG, but with incomplete browser support. When equal image quality, the compressed files will be smaller
+				than PNG and JPEG on average by 25%.
+			</dd>
+		</dl>
 
 		<div id="root"></div>
 		<script type="module" src="/src/index.tsx"></script>
